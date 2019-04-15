@@ -1,0 +1,173 @@
+.plan {
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+
+    input {
+        display: block;
+        width: 150px;
+        height: 18px;
+        margin: 10px;
+    }
+    
+    th, td {
+        height: 50px;
+        vertical-align: top;
+        text-align: left;
+        padding-right: 130px;
+
+        h3 {
+            padding-top: 20px; 
+            padding-left: 15px;
+        }
+
+        button {
+            margin-left: 20px;
+            margin-bottom: 2px;
+            size: 30px;
+        }
+
+    }
+
+
+
+}
+
+.table {
+        margin: 0 auto !important;
+    
+
+}
+
+.trekcard {
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+    min-height: 300px;
+    background-color: lightgrey;
+    overflow: auto;
+    border: 4px black;
+    box-shadow: 3px 3px 8px black;
+    
+}
+
+.trekcardbox {
+    width: 300px;
+
+    th, td {
+        text-align: left;
+        border-bottom: 2px solid #ddd;
+    }
+
+    table {
+        margin-left: 20%;
+    }
+    
+
+}
+
+.container {
+    display: flex;
+}
+
+.centerdiv {
+    display: inline-block;
+
+    margin-bottom: 20px;
+}
+.trekk{
+margin-left: 100px;
+}
+
+.pack{
+margin-right: 100px;
+}
+
+.card {
+
+    table {
+        border-top: 2px solid black;
+        margin-left: 25%;
+
+        th, td {
+            border-bottom: 2px solid #ddd;
+            padding: 5px;
+            padding-right: 100px;
+            text-align: left;
+        }
+    }
+}
+
+.right {
+    float: right;
+    margin-right: 25%;
+}
+
+.participants {
+    
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 280px;
+    height: 200px;
+    
+    img {
+        width: 100px;
+        height:100x;
+    }
+
+}
+
+.list{
+    ul {
+        list-style: none;
+    }
+    button {
+        margin-bottom: 2px;
+        size: 30px;
+    }
+}
+
+.addFriends {
+    position:absolute;
+    left: 35%;
+    top: 10%;
+    z-index: 2;
+    border: 4px grey;
+    box-shadow: 3px 3px 8px grey;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 680px;
+    height: 500px;
+    margin: 0 auto;
+
+    overflow: auto;
+
+
+    img {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 5px;
+    }
+
+
+
+    
+}
+
+.close {
+    width: 20px;
+    float: right;
+    text-align: right;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 160px;
+}

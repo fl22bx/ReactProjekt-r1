@@ -1,0 +1,42 @@
+.trekkprofile {
+    th, td {
+        border-bottom: 1px solid #ddd;
+    }
+}
+.tprofile {
+
+   padding: 30px;
+   th, td {   
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+}
+
+.tpacklist {
+    th, td {
+       padding: 40px;
+    }
+    float: left;
+
+}
+
+.tfriends {
+    
+    width: 250px;
+    margin-left: 50px;
+    float: left;
+    padding-top: 30px;
+    overflow: auto;
+    font-style: italic;
+
+    img {
+        width: 100px;
+        height:100px;
+        margin-top: 10px;
+    }
+
+
+
+
+}

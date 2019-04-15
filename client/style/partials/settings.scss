@@ -1,0 +1,17 @@
+.sett{
+
+    text-align: center;
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+
+        th, td {
+            border-bottom: 2px solid #ddd;
+            padding: 5px;
+            padding-right: 100px;
+            text-align: left;
+        }
+    }
+}

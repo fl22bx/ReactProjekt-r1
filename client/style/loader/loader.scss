@@ -1,0 +1,15 @@
+.loader {
+    width: 100px;
+    border-top: 10px solid red; 
+    height: 100px;
+    border-radius: 50%;   
+    animation: loader 0.7s linear;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+@keyframes loader {
+    from { transform: rotate(0)     }
+    to   { transform: rotate(360deg); }
+}

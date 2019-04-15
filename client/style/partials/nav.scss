@@ -1,0 +1,108 @@
+
+.navbar {
+    background-color: #00AAE4;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+.links {
+    float: left;
+    color: white;
+    margin-left:  30%;
+    max-width: 100%;
+    padding-top: 8px;
+
+    ul {
+        list-style-type: none;
+        display: block;
+
+        li {
+
+            display: inline-block;
+            margin-right: 50px;
+            margin-top: 7px;
+
+
+        }
+    }
+
+    a{
+        text-decoration: none;
+        display: block;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+}
+
+.settings {
+    float: right;  
+    height: 42px;
+    padding-top: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #0073CF;
+
+    a {
+        text-decoration: none
+    }
+
+    table {
+        list-style-type: none;
+        display: block;
+        td {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        img {
+            margin-top:3px;
+            height: 23px;
+            width: 23px;
+        }
+
+    }
+}
+
+.noti {
+    width: 23px;
+    background-image: url("/img/nav/bell.png");
+    background-size: 23px 23px;
+    a {
+        color: rgb(245, 0, 0);
+    }
+    a:link {
+        color: rgb(245, 0, 0);
+    }
+
+    a:visited {
+        color: rgb(245, 0, 0);
+    }
+}
+
+.settimg {
+    margin-top:3px;
+    height: 23px;
+    width: 23px;
+    background-image: url("/img/nav/kugge.png");
+    background-size: 23px 23px;
+
+
+    }
+
+
+.logimg {
+    margin-top:3px;
+    height: 23px;
+    width: 23px;
+    background-image: url("/img/nav/logout.png");
+    background-size: 23px 23px;
+}
